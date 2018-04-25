@@ -1,0 +1,41 @@
+﻿#adminContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    background-color: black;
+    color: limegreen;
+}
+
+hr {
+    background-color: limegreen;
+    height: 2px;
+}
+
+#orders {
+    display: flex;
+    font-family: 'Lucida Console';
+    font-size: small;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    width: 50%;
+    max-width: 440px;
+    margin-left: 25%;
+    margin-right: 25%;
+    top: 0;
+}
+
+hr {
+    width: 100%;
+    border-color: black;
+}
+
+.buttonAdmin {
+    display: flex;
+    width: 200px;
+    height: 100px;
+}

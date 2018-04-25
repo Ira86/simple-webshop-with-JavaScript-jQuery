@@ -1,0 +1,274 @@
+/*searchResult peter*/
+.dropFilm{
+  height: 100px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgrey;
+
+}
+.dropFilm:hover{
+  background-color: dimgrey;
+}
+
+.dropFilm img{
+  height: 100%;
+}
+.dropFilmText{
+  font-size: 26px;
+    margin-left: 10px;
+    color: black;
+}
+.dropFilmTextDecoration:hover{
+  text-decoration: none;
+}
+.my-new-list{
+      list-style: none;
+      padding: 0;
+}
+/*searchResult slut*/
+
+
+/*Footer Anna*/
+.container-fluid {
+      margin: 0 15px;
+}
+
+.footer {
+  padding: 10px 0 20px 0;
+  background-color: #35404f;
+  color: #878c94;
+}
+
+.footer .title {
+  text-align: left;
+  color: #fff;
+  font-size: 25px;
+}
+.footer h5 {
+    /*Denna är ändra från grå till vit om man vill ha större konstrast */;
+    color: #fff;
+}
+
+.footer p {
+    /*Denna är ändra från grå till vit om man vill ha större konstrast */;
+    color: #fff;
+}
+
+.footer .social-icon {
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer .social-icon a {
+  display: inline-block;
+  color: #fff;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: #35404f;
+    border: solid 1px #fff;
+}
+.footer .form-control{
+    color: #fff;
+    border-color:#fff;
+    border-radius:0px;
+    background-color:transparent;
+}
+/*In most browsers, the placeholder text is grey. To change this, style the placeholder with the non-standard ::placeholder selector.
+Note that Firefox adds a lower opacity to the placeholder, so we use opacity: 1 to fix this. */
+
+.footer ::placeholder {/* Firefox */
+    color: #fff;
+    opacity: 1;
+}
+.footer :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: r#fff;
+}
+.footer ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+
+.footer .btn {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 0px;
+}
+
+
+/*footer slut*/
+
+
+
+/*Header*/
+
+/*Navbar massa css för att centrera logga, justera färger och positioner*/
+.textInput{
+  border-color: white;
+  border-radius: 0px;
+  background-color: transparent;
+  color: white;
+}
+
+.brand-centered {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.brand-centered .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggle {
+    z-index: 1;
+}
+
+.navbar-brand {
+  height: 50px;
+  padding: 3px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  position: absolute;
+  z-index: 11;
+  margin: 0 auto;
+  right: 42%;
+}
+
+/*ändrar huvudfärgen på classen inverse, standard är mörk här gör vi den mörkare*/
+.navbar-inverse {
+  background-color: #35404f;
+  border-color: #080808;
+}
+
+/*position på alla aspekter*/
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 0px solid #000;
+  border-radius:0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*sätter vit färg på tillvaron*/
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 15px 11px;
+}
+
+.form-control{
+  border-color: white;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.btn-default-1 {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 0px;
+}
+
+.cart-heart{
+  display: inline-table;
+}
+
+.cart-heart a {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+
+}
+
+.badge:empty{
+	display: block;
+}
+
+#noIfItemsBadge {
+  width: 60px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.badge:after {
+  content: attr(data-count);
+  position: absolute;
+  background: #ff0000;
+  height: 2rem;
+
+  right: 1.5rem;
+  width: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1rem;
+  border-radius: 50%;
+  color: white;
+  border: 1px solid #ff6600;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.badge{
+  padding: 0;
+}
+
+#shoppingCartDropdown {
+	height: 400px;
+    width: 30%;
+    position: absolute;
+    padding: 10px;
+    float: left;
+    visibility: hidden;
+    margin-left: -70px;
+    background: rgba(54, 0, 0, 0.87);
+    color: #f2daa9;
+    border: 2px solid #cdb68c;
+}
+
+#shoppingCartDropdown div {
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+#checkoutBtn {
+    bottom: 10px;
+    position: absolute;
+    width: 90%;
+    border: 1px solid #cdb68c;
+    color: #cdb68c;
+    background-color: #a5322c;
+}
+
+#checkoutBtn:hover {
+    border: 1px solid #cdb68c;
+    background-color: #651e18;
+    color: #958166;
+}
+
+.cartInnerDivStyle {
+    margin-bottom: 40px;
+}
+
+
+/*Header slut*/

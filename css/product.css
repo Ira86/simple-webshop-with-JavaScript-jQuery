@@ -1,0 +1,97 @@
+/*********************************************
+					ANNA PRODUCTS
+*********************************************/
+
+.buy {
+  display: block;
+  left: 40px;
+  z-index: 10;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*To create fully fluid layouts must wrap their grid content in a containing element*/
+.productImgContainer {
+  padding: 10px 50px 10px 50px;
+}
+
+
+/*To create fully fluid layouts must wrap their grid content in a containing element*/
+.productInfoContainer {
+	margin-top:50px;
+}
+
+/* Produkt namn*/
+.product-name {
+	font-size: 1.8em;
+}
+
+/* Layout priset*/
+.product-price {
+	float: left;
+	margin-top: 0.5em;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/*Bootstrap class för knapp*/
+
+
+/*Bootstrap's global default font-size is 14px, with a line-height of 1.428.
+This is applied to the <body> and all paragraphs.
+In addition, <p> (paragraphs) receive a bottom margin of half their computed line-height (10px by default).*/
+
+/* Layout film beskrivning*/
+.product-desc {
+	float: left;
+	margin-top: 1em; /*15px*/
+	margin-bottom: 0.625em; /*10px*/
+	font-size: 0.875em; /*14px*/
+}
+
+/* Layout Utgivningsår*/
+.product-year {
+	float: left;
+	margin-right: 2em;
+}
+
+/* Layout Produkt kategori/Genre funkar inte just nu - kan göras till länkt eller ev. lägga bild länkar till liknande bilder*/
+.product-category {
+	float: left;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width : 768px) {
+  /*Anna*/
+ .productImgContainer {
+  	padding: 0;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width : 992px) {
+  /*Anna*/
+
+.productImgContainer {
+  	padding: 0;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width : 1200px) {
+  /*Anna*/
+.productImgContainer {
+    padding: 0;
+	width:30%;
+  }
+.productImgContainer img {
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+}

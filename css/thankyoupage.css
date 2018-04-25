@@ -1,0 +1,55 @@
+/*Thank you page*/
+body {
+    background-color: #35404f;}
+
+#thankyoupage .container {
+    margin: 0 15px;
+}
+
+#thankyoupage {
+    padding: 40px 0 20px 0;
+    /* background-color: #35404f; */
+}
+
+#thankyoupage .title {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 25px;
+}
+
+#thankyoupage p {
+    color: #fff;
+    font-size: 16px;
+}
+#thankyoupage a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 10px;
+    /* margin: 1px; */
+    border-radius: 4px;
+    margin-top: 10px;
+    border: solid 1px #fff;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  /*Anna Thankyoupage*/
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+  /*Anna Thankyoupage*/
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+  /*Anna Thankyoupage*/
+
+}

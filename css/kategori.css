@@ -1,0 +1,200 @@
+﻿body{
+	margin: 0;
+}
+.movies{
+    width: 100%;
+	height:auto;
+    z-index: 1;
+	background-color: #35404f;
+	display: flex;
+	justify-content: center;
+
+}
+
+.movies * {
+	display: flex;
+	justify-content: center;
+}
+
+#filterList li {
+	background-color: #35404f;
+	color: white;
+}
+
+.filter ul {
+	padding:0;
+	margin:0;
+	list-style-type: none;
+	width:25;
+	height:100%;
+}
+
+.filter a {
+	margin-top:5px;
+	margin: 15px;
+	color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/*.filter a:hover {
+	background-color: #ddd;
+	color:black;
+	width:100%;
+}*/
+
+.categoryContainer {
+	display:flex;
+	flex-direction:column;
+}
+
+.categoryImage{
+	width:100%;
+	position:relative;
+}
+
+/*.categoryImage:hover .buy, .categoryImage:hover .moreInfo {
+  display: block;
+  z-index: 10;
+}
+.categoryImage:hover img {
+	opacity:0.6;
+}*/
+
+.moreInfo {
+	display:none;
+	position:absolute;
+	left:10%;
+	padding:5px;
+}
+
+.buy {
+	display:none;
+	position:absolute;
+	right:10%;
+	padding:5px
+}
+
+.image {
+	margin: 20px;
+	margin-bottom: 20px;
+	margin-right:20px;
+	display: flex;
+	position:relative;
+	align-items: center;
+	justify-content: center;
+	border:1px solid;
+	box-shadow: 5px 10px #888888;
+}
+
+.image img {
+	width:100%;
+	height:100%;
+}
+
+
+.productInfo {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  right: 5px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index:10;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+	.categoryContainer{
+		display:flex;
+		flex-direction:row;
+		flex-wrap: wrap;
+	}
+
+	.categoryImage{
+		width:20%;
+		display:flex;
+		height:auto;
+	}
+
+	.image img {
+	  	width:100%;
+		height:100%;
+	}
+
+
+
+}
+
+@media screen and (min-width: 600px) {
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.movies{
+
+			width: 200px;
+			background-color: white;
+			top: 0;
+			left: 0;
+			float: left;
+
+	}
+	.clearfix{
+		display: none;
+	}
+
+.categoryContainer {
+    flex-direction:row;
+    flex-wrap: wrap;
+
+
+    display: flex;
+	position:relative;
+  }
+
+.image img {
+	width:100%;
+	height:100%;
+}
+#filterList{
+	width: 110px;
+	text-align: center;
+}
+
+.filter ul{
+  	  width:100%;
+	  height:auto;
+	  position:relative;
+  }
+
+.filter a{
+	margin: 5px 0 0 0;
+}
+
+.filter a:hover {
+	background-color: #ddd;
+	color:black;
+	width:100%;
+}
+
+.categoryImage:hover .buy, .categoryImage:hover .moreInfo {
+  display: block;
+  z-index: 10;
+}
+.categoryImage:hover img {
+	opacity:0.6;
+}
+
+.movies * {
+    display: block;
+}
+}
